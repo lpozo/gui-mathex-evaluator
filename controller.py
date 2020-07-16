@@ -32,7 +32,7 @@ class MainCtrl(QDialog):
 
     def showResult(self, result):
         self._ui.expEdit.clear()
-        self._ui.resultList.insertItem(0, result)
+        self._ui.resultList.insertItem(0, "-> " + result)
 
     def clearResults(self):
         self._ui.resultList.clear()
